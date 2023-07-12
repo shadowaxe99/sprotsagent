@@ -1,6 +1,6 @@
 # SprotsAgent
 
-This is a Python-based sports agent script. The script acts as a virtual sports agent, automating tasks related to player management, contract negotiation, performance tracking, communication via email and text messaging, social media networking (specifically LinkedIn), and issuing media comments. The sports agent script aims to streamline and automate various tasks typically performed by a sports agent.
+SprotsAgent is a Python-based sports agent script. The script acts as a virtual sports agent, automating tasks related to player management, contract negotiation, performance tracking, communication via email and text messaging, social media networking (specifically LinkedIn), and issuing media comments. The sports agent script aims to streamline and automate various tasks typically performed by a sports agent.
 
 ## Technologies
 
@@ -16,20 +16,20 @@ This is a Python-based sports agent script. The script acts as a virtual sports 
 
 ### Player Information Management
 
-- Store and manage player profiles, including personal details, team affiliations, and performance history
-- Add, update, and delete player information
-- Retrieve player information based on various criteria (e.g., name, sport, team)
+- Ability to store and manage player profiles, including personal details, team affiliations, and performance history
+- Support for adding, updating, and deleting player information
+- Ability to retrieve player information based on various criteria (e.g., name, sport, team)
 
 ### Contract Negotiation Support
 
-- Generate contract templates for different sports and contract types
-- Customize contract terms (e.g., salary, contract duration) based on player and team requirements
-- Calculate contract-related metrics, such as salary cap impact and contract value
+- Ability to generate contract templates for different sports and contract types
+- Support for customizing contract terms (e.g., salary, contract duration) based on player and team requirements
+- Calculation of contract-related metrics, such as salary cap impact and contract value
 
 ### Performance Tracking
 
-- Track and store player performance data, including statistics, game logs, and achievements
-- Analyze and visualize performance data to assess player progress and identify trends
+- Capability to track and store player performance data, including statistics, game logs, and achievements
+- Ability to analyze and visualize performance data to assess player progress and identify trends
 
 ### Communication
 
@@ -39,18 +39,16 @@ This is a Python-based sports agent script. The script acts as a virtual sports 
 ### Social Media Networking (LinkedIn)
 
 - Integration with the LinkedIn API to facilitate networking and communication with relevant industry professionals
-- Retrieve and update player profiles on LinkedIn
-- Send messages and establish connections with other LinkedIn users
-
-## Usage
-
-To use this application, run the desired Python file. For example, to generate a contract, run `contract_generator.py`.
+- Ability to retrieve and update player profiles on LinkedIn
+- Support for sending messages and establishing connections with other LinkedIn users
 
 ## Contributing
 
-We are actively looking for contributors to help us improve and expand this project. If you're a developer, a sports enthusiast, or someone who just wants to help out, we'd love to have you on board. We believe that together, we can make a difference and help to stop wannabe power broker middlemen.
+We welcome contributions from anyone who wants to make this project better and more effective in stopping wannabe power broker middlemen. Please feel free to fork this repository, make changes, and submit a pull request. We appreciate your help!
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
+## Powered by
+
+GPT-3.5-turbo
 
 ## License
 
