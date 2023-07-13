@@ -62,8 +62,10 @@ def retrieve_players(criteria=None):
     return cursor.fetchall()
 
 # Example usage
-add_player("John Doe", "Basketball", "Team A", "Excellent performance")
-add_player("Jane Smith", "Soccer", "Team B", "Average performance")
+task = AddPlayerTask("John Doe", "Basketball", "Team A", "Excellent performance")
+task.start()
+task = AddPlayerTask("Jane Smith", "Soccer", "Team B", "Average performance")
+task.start()
 
 update_player(1, name="John Doe Jr.", performance="Outstanding performance")
 
